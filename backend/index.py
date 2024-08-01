@@ -1,6 +1,7 @@
 import os
 import threading
 from time import time
+from datetime import datetime
 
 import webview
 
@@ -63,7 +64,7 @@ entry = get_entrypoint()
 def update_ticker():
     if len(webview.windows) > 0:
         webview.windows[0].evaluate_js(
-            'window.pywebview.state.setTicker("%d")' % time()
+            'window.pywebview.state.setTicker("%s")' % datetime.fromtimestamp(time()).strftime('%Y-%m-%d %H:%M:%S')
         )
 
 

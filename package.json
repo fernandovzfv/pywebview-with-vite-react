@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run clean && npm run build-frontend && run-script-os",
     "build:macos": "./venv-pywebview/bin/python build-macos.py py2app",
-    "build:windows": ".\\venv-pywebviewenv\\Scripts\\pyinstaller build-windows.spec",
+    "build:windows": ".\\venv-pywebview\\Scripts\\pyinstaller build-windows.spec",
     "build:linux": "./venv-pywebview/bin/pyinstaller build-linux.spec",
     "build-frontend": "cd frontend && npm run build",
     "clean": "run-script-os",

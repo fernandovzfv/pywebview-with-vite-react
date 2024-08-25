@@ -1,7 +1,12 @@
+Note: forked from https://github.com/ShijiMi-Soup/pywebview-with-vite-react
+(With JavaScript instead of TypeScript)
+
 # Pywebview with Vite React
 
 This is a  simple boilerplate to help you start with _pywebview_, Vite, and React.
 Stack is based on pywebview, React, Vite bundler, pyinstaller (Windows/Linux) and py2app (macOS).
+
+![Screenshot](./screenshot.png)
 
 ## Requirements
 - Python 3
@@ -14,27 +19,15 @@ Stack is based on pywebview, React, Vite bundler, pyinstaller (Windows/Linux) an
 
 ## Initialization
 
-### Mac OS
-
 ```shell
 npm run init
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+npm run start
+npm run clean
 ```
 
-### Windows
+### MAC OS
 
-```shell
-npm run init
-python -m venv venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### Linux
-
-- Linux support is not provided but you can mimic the [original boiller plate](https://github.com/r0x0r/pywebview-react-boilerplate)
+- MAC OS support was not tested but you can mimic the [original boiller plate](https://github.com/r0x0r/pywebview-react-boilerplate)
 
 ## Run in dev mode
 

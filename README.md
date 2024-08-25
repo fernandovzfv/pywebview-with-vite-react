@@ -21,8 +21,6 @@ Stack is based on pywebview, React, Vite bundler, pyinstaller (Windows/Linux) an
 
 ```shell
 npm run init
-npm run start
-npm run clean
 ```
 
 ### MAC OS
@@ -47,6 +45,11 @@ npm run start
 
 ```shell
 npm run build
+```
+
+## Clean
+```shell
+npm run clean
 ```
 
 ## License

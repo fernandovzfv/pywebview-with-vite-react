@@ -62,7 +62,7 @@ gui/
 
 # Database
 *.sqlite3
-*.db
+# *.db
 
 # Environment variables
 .env
